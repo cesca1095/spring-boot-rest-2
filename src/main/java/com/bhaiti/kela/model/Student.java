@@ -1,4 +1,4 @@
-package com.bhaiti.kela.beans;
+package com.bhaiti.kela.model;
 
 public class Student {
 	

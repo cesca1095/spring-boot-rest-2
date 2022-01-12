@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.bhaiti.kela.beans.Student;
 import com.bhaiti.kela.beans.StudentRegistration;
+import com.bhaiti.kela.model.Student;
 
 @Controller
 public class StudentRetrieveController {
