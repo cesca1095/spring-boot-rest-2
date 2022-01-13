@@ -1,27 +1,20 @@
-package com.bhaiti.kela.model;
+package com.bhaiti.kela.models;
+
+import lombok.Getter;
+import lombok.Setter;
 
 public class Student {
 	
-    public String getName() {
-		return name;
-	}
-	public void setName(String name) {
-		this.name = name;
-	}
-	public int getAge() {
-		return age;
-	}
-	public void setAge(int age) {
-		this.age = age;
-	}
-	public String getRegistrationNumber() {
-		return registrationNumber;
-	}
-	public void setRegistrationNumber(String registrationNumber) {
-		this.registrationNumber = registrationNumber;
-	}
+    @Getter
+    @Setter
 	String name;
+    
+    @Getter
+    @Setter
     int age;
+    
+    @Getter
+    @Setter
     String registrationNumber;
 
 }

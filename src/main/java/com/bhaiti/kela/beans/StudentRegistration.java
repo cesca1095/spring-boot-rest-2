@@ -3,7 +3,7 @@ package com.bhaiti.kela.beans;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.bhaiti.kela.model.Student;
+import com.bhaiti.kela.models.Student;
 
 public class StudentRegistration {
 
